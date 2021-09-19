@@ -1,0 +1,9 @@
+@apikey = 2f20527c336d4a47816ce3bde2fd2317
+@hostname = http://localhost:3000
+
+### Weatherbit API
+GET https://api.weatherbit.io/v2.0/current?city=Chattanooga&key={{apikey}}
+
+### Weather Index
+
+GET {{hostname}}/weather?city=Chattanooga
